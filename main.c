@@ -72,5 +72,7 @@ int main() {
 
     destroiArvore(raiz);
 
+    system("pause");
+
     return 0;
 }

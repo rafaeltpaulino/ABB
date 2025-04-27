@@ -217,6 +217,8 @@ int buscaNo(No *raiz, int info) {
             fila[tras++] = atual->dir;
         }
     }
+
+    return -1;
 }
 
 bool eQuaseCheia(No *raiz) {
