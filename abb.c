@@ -29,7 +29,7 @@ No *insereNo(No *raiz, int info) {
     } else if(info > raiz->info) {
         raiz->dir = insereNo(raiz->dir, info);
     } else {
-        printf("\nO numero enviado ja esta na arvore e nao sao permitidos numeros repetido na arvore binaria de busca.\n");
+        printf("\n%i : O numero enviado ja esta na arvore e nao sao permitidos numeros repetido na arvore binaria de busca.\n", raiz->info);
         return raiz;
     }
 
